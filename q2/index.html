@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <base target="_top">
+  <title>情報第一回課題・Q2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="title">
+    <h1>Q2・○年○月○日から○日後は何年何月何日何曜日？</h1>
+    </div>
+  <div class="discription">
+    <p>コードについては、デベロッパツールでご覧ください。</p>
+  </div>
+    <div class="main">
+      <input type="tel" id="y" maxlength="4" size="1"/>年<input type="tel" id="m" maxlength="2" size="1"/>月<input type="tel" id="d" maxlength="2" size="1"/>日の<input type="tel" id="input" size="1"/>日
+      <button type="button" id="bef" onclick="Before();">前</button><button type="button" id="aft" onclick="After();">後</button>は…
+        <p id="result"></p>
+      </div>
+</body>
+</html>
